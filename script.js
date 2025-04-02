@@ -30,7 +30,7 @@ world.beforeEvents.entityRemove.subscribe(e => {
             const valid = Array
                 .from({ length: inv.size }, (_, i) => inv.getItem(i))
                 .filter(k => k != null)
-                .some((k, i) => k.typeId === item.typeId && k.amount > items[i]?.amount) ?? 0
+                .some((k, i) => k.typeId === item.typeId && k.amount != items[i]?.amount)
             if (valid) {
                 world.sendMessage(
                     `§i${player.nameTag} +${item.amount} ${item.typeId.slice(10)}`
