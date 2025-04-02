@@ -3,7 +3,7 @@ import { world, system } from "@minecraft/server"
 // About this
 
 // GitHub:          https://github.com/Carchi777/detect-who-picked-up-an-item
-// Discord:         
+// Discord:         https://discord.com/channels/523663022053392405/1357021344457424967
 
 // Made by Carchi77
 // My Github:       https://github.com/Carchi777
